@@ -1,5 +1,3 @@
-  def greeting(greeting)
-    greeting = "Hello World"
-    puts "#{greeting}"
-  end
+def get_variable_from_file(greeting = "Hello World")
+puts "#{greeting}"
 end
